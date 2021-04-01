@@ -1,1 +1,9 @@
-# Terran-project
+## Terran project
+
+# Mission statment
+
+# Misson goals
+
+# Funding goals
+
+
