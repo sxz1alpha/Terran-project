@@ -1,12 +1,81 @@
-
-header {
-    background-color: rgb(45, 67, 77);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+
+:root {
+    --one-color: rgb(255, 255, 255);
+    --two-color: #000000;
+    --three-color: rgb(40, 92, 47);
+    --four-color: rgb(100, 85, 63);
+    --five-color: rgb(19, 196, 202);
+    --six-color: rgb(234, 0, 255);
+    --seven-color: rgb(64, 2, 116);
+}
+
+body {
+    color: var(--one-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .page-title {
-    color: rgb(22, 95, 22);
+    color: var(--five-color);
+    font-weight: bold;
 }
 
 .page-title span {
-    color: rgb(13, 71, 126);
+    color: var(--six-color);
+    font-weight: bold;
 }
+
+
+
+header {
+    background-color: var(--two-color);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 2.55vw;
+    z-index: 10;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--five-color);
+}
+
+header nav {
+    margin: 10px 10px;
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 3.3vw;
+
+}
+
+header nav ul li a:hover {
+    background-color: var(--six-color);
+    color: var(--two-color);
+    border-radius: 5px 40px;
+    font-weight: bold;
+}
+
+
+
