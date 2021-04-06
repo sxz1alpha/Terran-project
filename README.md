@@ -9,7 +9,7 @@ if at any point the project can not claim to be democratic, open sourced, decent
 
 ## Misson goals
 
-* caputure an asteroid for resources
+* Caputure an asteroid for resources
 * Build an orbital habitat and refinery
 * Build an orbital shipyard
 * build exploration vessels

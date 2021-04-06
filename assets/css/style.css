@@ -8,11 +8,11 @@
 :root {
     --one-color: rgb(255, 255, 255);
     --two-color: #000000;
-    --three-color: rgb(40, 92, 47);
+    --three-color: rgb(4, 49, 107);
     --four-color: rgb(100, 85, 63);
-    --five-color: rgb(19, 196, 202);
-    --six-color: rgb(234, 0, 255);
-    --seven-color: rgb(64, 2, 116);
+    --five-color: rgb(40, 92, 47);
+    --six-color: rgb(19, 196, 202);
+    --seven-color: rgb(233, 0, 202);
 }
 
 body {
